@@ -117,6 +117,8 @@ img.avatar{
   #about {
     border: 1px solid #fff;
     padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 38, 87);
     font-size: 30px;
     text-align: right;
   }
@@ -138,7 +140,8 @@ img.avatar{
   #work {
     border: 1px solid rgb(247, 243, 243);
     padding: 20px;
-    font-weight: Verdana, Geneva, Tahoma, sans-serif;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 38, 87);
     font-size: 30px;
     text-align: right;
   }
@@ -175,7 +178,8 @@ clear: both;
   #contact {
     border: 1px solid rgb(247, 243, 243);
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 38, 87);
     font-size: 30px;
     text-align: right;
   }
@@ -185,14 +189,13 @@ clear: both;
      flex-direction: row;
      border-left: 1px solid rgb(80, 75, 75);
      padding: 45px;
-     font-size: 18px;
+     font-size: 14px;
      align-items:flex-start;
      background-color:rgb(1, 20, 26);
     justify-content:space-evenly
   }
 .con-details a{
 color: #fff;
-padding: 30px, 25px;
 }
 
 /* Change color on hover */
