@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+ /* Style the body */
+#container {
+ width: 100%;
+ margin: 0px auto 0px auto;
+ height: 100%;
+ font-family: Arial, Helvetica, sans-serif
+ line-height: 1.5;
+}
+
+ /* Header/logo Title */
+ .header {
+  background-color: rgb(5, 91, 126);
+  border-bottom: 5px solid #FF6200;
+}
+
+
+/* Style the navigation bar */
+.navigation {
+  display: flex;
+  width: 40%;
+  font-family:Arial, Helvetica, sans-serif;
+  align-items: flex-end;
+  justify-content: space-evenly;
+
+   }
+
+.navigation a {
+  color: white;
+padding: 30px 25px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+/* Navigation CSS */
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 10%;
+}
+
+#navBar h1 {
+  width: 60%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Change color on hover */
+.navigation a:hover {
+  background-color: rgb(228, 90, 10);
+}
+
+
+.hero-banner { /* "linear-gradient" adds a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+ margin-top: 0;
+ background-size: cover;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image1.jpg");
+
+  /* Set a specific height */
+height: 500px;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+img.avatar{
+  height:300px;
+  width:300px;
+  border-radius:50%;
+  position: absolute;
+  top: 12%;
+  right: 18%;
+  vertical-align: middle;
+  }
+#hero-text h2 {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  right: 1%;
+  transform: translate(-50%, -50%);
+  color: white;
+   }
+
+/* Typography CSS */
+
+#hero-text {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+ .navbar h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+ }
+
+
+.page-wrapper {
+  margin-top: 10px;
+  max-width: 1200;
+  margin-left: 200px;
+  margin-right: 200px;
+  }
+
+  .page-section {
+    display: grid;
+    grid-template-columns: 25% 65%;
+    padding: 10px;
+    border-radius: 10px
+    
+  }
+  #about {
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+  }
+  .content {
+    border-left: 1px solid rgb(80, 75, 75);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 25% 65%;
+    padding: 10px;
+    border-radius: 10px
+    
+  }
+  #work {
+    border: 1px solid rgb(247, 243, 243);
+    padding: 20px;
+    font-weight: Verdana, Geneva, Tahoma, sans-serif;;
+    font-size: 30px;
+    text-align: right;
+  }
+  .contents {
+    border-left: 1px solid rgb(80, 75, 75);
+    padding: 20px;
+    }
+
+    /* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+}
+
+.column img {
+margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+  .page-section-contact {
+    display: grid;
+    grid-template-columns: 25% 65%;
+    padding: 10px;
+    border-radius: 10px
+    
+  }
+  #contact {
+    border: 1px solid rgb(247, 243, 243);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-size: 30px;
+    text-align: right;
+  }
+
+  .con-details {
+     display: flex;
+     flex-direction: row;
+     border-left: 1px solid rgb(80, 75, 75);
+     padding: 45px;
+     font-size: 18px;
+     align-items:flex-start;
+     background-color:rgb(1, 20, 26);
+    justify-content:space-evenly
+  }
+.con-details a{
+color: #fff;
+padding: 30px, 25px;
+}
+
+/* Change color on hover */
+.con-details a:hover {
+background-color: rgb(228, 90, 10);
+}
+/* The end of CSS file */
