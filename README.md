@@ -39,7 +39,7 @@ The site is published in github. The site can be updated using git bash commands
 
   
 ###### The site is live at GitHub:  https://agaffar74.github.io/MyPortfolio/
-###### tHE SITE LIVE at: 
+###### tHE SITE LIVE at: https://agaffar74.github.io/MyPortfolio/
 
 ###### Images were used in jpg and jpeg format and listed below: 
 - MyPhoto.jpg
