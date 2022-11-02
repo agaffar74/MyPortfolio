@@ -38,7 +38,8 @@ Portfolio images are not representing my work at all. This images were randomly 
 The site is published in github. The site can be updated using git bash commandsand changes to push to Git Hub repository by gitbash commands
 
   
-###### The site is live at https://agaffar74.github.io/emedia/
+###### The site is live at GitHub:  https://agaffar74.github.io/MyPortfolio/
+###### tHE SITE LIVE at: 
 
 ###### Images were used in jpg and jpeg format and listed below: 
 - MyPhoto.jpg
